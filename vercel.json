@@ -5,16 +5,8 @@
       "framework": "vite"
     },
     "backend": {
-  "root": "backend/water_model",
-  "entrypoint": "app.py"
-}
-  },
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": {
-        "service": "frontend"
-      }
+      "root": "backend",
+      "entrypoint": "app.py"
     }
-  ]
+  }
 }
