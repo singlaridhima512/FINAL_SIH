@@ -6,7 +6,15 @@
     },
     "backend": {
       "root": "backend",
-      "entrypoint": "app.py"
+      "entrypoint": "server.js"
     }
-  }
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": {
+        "service": "frontend"
+      }
+    }
+  ]
 }
