@@ -5,9 +5,9 @@
       "framework": "vite"
     },
     "backend": {
-      "root": "backend",
-      "entrypoint": "app.py"
-    }
+  "root": "backend/water_model",
+  "entrypoint": "app.py"
+}
   },
   "rewrites": [
     {
